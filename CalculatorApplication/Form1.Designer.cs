@@ -117,13 +117,14 @@
             this.btnCalculate.TabIndex = 7;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // FrmCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(360, 248);
+            this.ClientSize = new System.Drawing.Size(360, 216);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.lbltotal);
             this.Controls.Add(this.cbOperator);
@@ -136,7 +137,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "FrmCalculator";
             this.Text = "FrmCalculator";
-            
             this.ResumeLayout(false);
             this.PerformLayout();
 
