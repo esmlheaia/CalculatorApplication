@@ -12,9 +12,14 @@ namespace CalculatorApplication
 {
     public partial class FrmCalculator : Form
     {
+        CalculatorClass cal;
         public FrmCalculator()
         {
             InitializeComponent();
+
+
         }
+
+        
     }
 }
